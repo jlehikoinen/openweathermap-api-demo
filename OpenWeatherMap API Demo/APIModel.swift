@@ -114,7 +114,7 @@ struct APIModel {
                 
             } catch {
                 print("Error: Could not decode JSON: \(error)")
-                print("Missing API id?")
+                print("Missing API key?")
                 errorMsg = "Error: Could not decode JSON"
             }
             
