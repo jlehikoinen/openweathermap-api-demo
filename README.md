@@ -9,6 +9,10 @@ Example of how to make HTTP GET request using Swift in macOS app.
 - Add API key to `Globals.swift` file
 - Edit location and measurement system in `Globals.swift`
 
+## App window
+
+![App window](MainWindow.png)
+
 ## Additional information
 
 - App Transport Security Settings > Allow Arbitrary Loads is set to `YES` because the endpoint uses http
