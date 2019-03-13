@@ -13,7 +13,7 @@ struct LocationWeather: Codable {
     
     let clouds: Clouds
     let name: String
-    let visibility: Int
+    let visibility: Int?
     let sys: System
     let weather: [Weather]
     let coord: Coordinates
