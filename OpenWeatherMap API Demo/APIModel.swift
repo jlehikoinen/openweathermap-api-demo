@@ -74,7 +74,7 @@ struct Main: Codable {
 struct Wind: Codable {
     
     let speed: Double
-    let deg: Int
+    let deg: Int?
 }
 // Openweathermap location endpoint data ends here
 
