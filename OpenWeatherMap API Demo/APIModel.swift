@@ -13,6 +13,7 @@ struct LocationWeather: Codable {
     
     let clouds: Clouds
     let name: String
+    let timezone: Int?
     let visibility: Int?
     let sys: System
     let weather: [Weather]
@@ -34,7 +35,6 @@ struct System: Codable {
     
     let country: String
     let sunset: Int
-    let message: Double
     let type: Int
     let id: Int
     let sunrise: Int
@@ -74,7 +74,7 @@ struct Main: Codable {
 struct Wind: Codable {
     
     let speed: Double
-    let deg: Int?
+    let deg: Double?
 }
 // Openweathermap location endpoint data ends here
 
